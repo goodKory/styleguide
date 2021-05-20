@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T08:37:40.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="vhENiMHDlTLX40ATQC9e" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T08:39:42.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="GfQG4Q3ifSV7kol46gFh" version="14.6.12" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="946" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -23,6 +23,9 @@
         </mxCell>
         <mxCell id="15" value="人为核对，&#xa;整理出系统&#xa;需要的数据格式" style="" parent="3" vertex="1">
           <mxGeometry x="85.5" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6uc3DW0a4A-orKG1fHZI-47" value="获取到对应&lt;br&gt;成功失败原因" style="whiteSpace=wrap;html=1;" vertex="1" parent="3">
+          <mxGeometry x="85.5" y="222" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4" value="系统" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="724.5" y="128" width="280" height="570" as="geometry" />
@@ -54,6 +57,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="519.5" y="348" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6uc3DW0a4A-orKG1fHZI-45" value="暂存数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="804.5" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6uc3DW0a4A-orKG1fHZI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uc3DW0a4A-orKG1fHZI-42" target="6uc3DW0a4A-orKG1fHZI-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uc3DW0a4A-orKG1fHZI-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6uc3DW0a4A-orKG1fHZI-42" target="6uc3DW0a4A-orKG1fHZI-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
